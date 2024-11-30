@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="me">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aleksandar Anicic | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigacija -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">O Meni</a></li>
+                <li><a href="#works">Moj Rad</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Sekcija sa pozadinskom slikom -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Frontend Developer</h1>
+            <p>Stvaram moderne, dinamične i responzivne web stranice i aplikacije.</p>
+        </div>
+    </section>
+
+    <!-- O Meni Sekcija -->
+    <section id="about" class="about">
+        <h2>O Meni</h2>
+        <p>Ja sam Aleksandar Anicic, frontend developer sa strašću za modernim web tehnologijama.
+            Moji projekti uključuju različite vrste aplikacija, od jednostavnih web sajtova do kompleksnih web aplikacija.
+            Možda nisam najiskusniji developer, ali se trudim da svaki projekat bude dobro urađen i optimizovan.
+        </p>
+
+        <!-- Dugme "detaljnije..." sa strelicom -->
+        <span class="show-more" onclick="toggleContent()">
+            Detaljnije <span class="arrow">&#x2193;</span>
+        </span>
+        <div class="more-content" id="moreContent">
+            <p>Naučio sam frontend razvoj kroz **Algorithmics** kurs, gde sam savladao HTML, CSS, JavaScript i responzivni dizajn.
+               Kroz praktičan rad, izgradio sam veštine u kreiranju modernih, interaktivnih web sajtova.</p>
+            <p>Strastven sam u učenju novih tehnologija i stalnom usavršavanju kao frontend developer.
+                Uvek težim inovacijama i stalnom učenju novih tehnologija, što mi omogućava da ponudim najkvalitetnija rešenja za vaše projekte i pomognem u rastu vašeg poslovanja.
+            </p>
+        </div>
+    </section>
+
+    <!-- Moj Rad Sekcija -->
+    <section id="works" class="works">
+        <h2>Moj Rad</h2>
+        <div class="work-gallery">
+            <div class="work-item">
+                <img src="https://images.pexels.com/photos/1266834/pexels-photo-1266834.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Projekat 1">
+                <p>Projekat 1</p>
+            </div>
+            <div class="work-item">
+                <img src="https://images.pexels.com/photos/2106074/pexels-photo-2106074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Projekat 2">
+                <p>Projekat 2</p>
+            </div>
+            <div class="work-item">
+                <img src="https://images.pexels.com/photos/1181249/pexels-photo-1181249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Projekat 3">
+                <p>Projekat 3</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt sekcija -->
+    <section id="contact" class="contact">
+        <h2>Kontaktirajte Me</h2>
+        <!-- Kontakt Informacije -->
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:anicicaco287@gmail.com">anicicaco287@gmail.com</a></p>
+            <p><strong>Telefon:</strong> <a href="tel:+382069598202">+382 069 598 202</a></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
